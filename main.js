@@ -150,3 +150,10 @@ function formReset(){
     scoreBox.value = 5;
     releaseYearBox.value = ``;
 }
+
+function clearTable(){
+    const sure = confirm("are you sure you want to delete all albums from the table?")
+    if(!sure) return ;
+    allAlbums = [];
+    dynamicTable(allAlbums);
+}
