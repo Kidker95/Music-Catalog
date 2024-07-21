@@ -16,59 +16,19 @@
 
     <div class="form-container">
       <form class="inputs">
-        <input
-          maxlength="30"
-          autocapitalize=""
-          class="capitalize"
-          type="text"
-          placeholder="Artist Name"
-          id="artistNameBox"
-        />
+        <input autocomplete="off" autocapitalize="" class="capitalize" type="text" placeholder="Artist Name" id="artistNameBox"/>
         <br /><br />
-        <input
-          maxlength="50"
-          autocomplete="off"
-          class="capitalize"
-          type="text"
-          placeholder="Album Name"
-          id="albumNameBox"
-        />
+        <input autocomplete="off" class="capitalize" type="text" placeholder="Album Name" id="albumNameBox"/>
         <br /><br />
-        <input
-          maxlength="30"
-          class=""
-          type="text"
-          placeholder="Genre"
-          id="genreBox"
-        />
+        <input autocomplete="off" type="text" placeholder="Genre" id="genreBox"/>
         <br /><br />
-        <input
-          class=""
-          type="number"
-          placeholder="Release Year"
-          id="releaseYearBox"
-          maxlength="4"
-        />
+        <input type="number" placeholder="Release Year" id="releaseYearBox" maxlength="4"/>
         <br /><br />
-        <input
-          class=""
-          type="range"
-          title="score(0-10)"
-          id="scoreBox"
-          min="0"
-          max="10"
-          step="0.1"
-        />
+        <input type="range" title="score(0-10)" id="scoreBox" min="0" max="10" step="0.1"/>
         <br /><br />
-        <button type="button" class="" onclick="addNewAlbum()">
-          Add Album
-        </button>
-        <button type="button" class="" onclick="formReset()">
-          Reset Form
-        </button>
-        <button type="button" class="" onclick="clearTable()">
-          Delete All Albums
-        </button>
+        <button type="button" class="" onclick="addNewAlbum()">Add Album</button>
+        <button type="button" class="" onclick="formReset()">Reset Form</button>
+        <button type="button" class="" onclick="clearTable()">Delete All Albums</button>
       </form>
     </div>
 
